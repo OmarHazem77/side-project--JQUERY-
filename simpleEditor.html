@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bold{
+            font-weight: bold;
+        }
+        .italic{
+            font-style:italic ;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias laborum fugiat unde? Eaque delectus
+        perspiciatis soluta, voluptatem veniam officia, id nihil beatae assumenda eius odio exercitationem facere. Quod,
+        doloremque accusamus?</p>
+    <button class="left">left</button>
+    <button class="center">center</button>
+    <button class="right">right</button>
+    <button class="bold">bold</button>
+    <button class="italic">italic</button>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(".left").click(function () {
+            $("p").css('text-align', 'left')
+        })
+        $(".center").click(function () {
+            $("p").css('text-align', 'center')
+        }) 
+        $(".right").click(function () {
+            $("p").css('text-align', 'right')
+        })
+        $(".bold").click(function(){
+            $("p").toggleClass("bold")
+        })
+        $(".italic").click(function(){
+            $("p").toggleClass("italic")
+        })
+    </script>
+</body>
+
+</html>

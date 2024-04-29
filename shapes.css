@@ -1,0 +1,116 @@
+body {
+    background-color: gray;
+}
+
+.shape {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: all 0.5s ease-in-out;
+    margin: 100px auto;
+
+}
+
+.square {
+    padding: 10px 30px;
+    border: 2px solid orange;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.square:hover {
+    transform: scale(1.1);
+
+}
+
+.circ {
+    padding: 10px 30px;
+    border: 2px solid orange;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.circ:hover {
+    transform: scale(1.1);
+}
+
+.tria {
+    padding: 10px 30px;
+    border: 2px solid orange;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.tria:hover {
+    transform: scale(1.1);
+}
+
+.rect {
+    padding: 10px 30px;
+    border: 2px solid orange;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.rect:hover {
+    transform: scale(1.1);
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.triangle {
+    border-bottom: 200px solid blue;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    background-color: transparent;
+    width: 0;
+    height: 0;
+
+
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+}
+
+.move {
+    text-align: center;
+    margin: 100px;
+}
+
+.color {
+    margin: auto;
+    text-align: center;
+}
+
+.color span {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.move span {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}

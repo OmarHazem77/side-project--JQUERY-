@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam accusantium voluptatum placeat a officiis optio,
+        repudiandae nisi at sapiente doloribus ullam earum commodi facilis, voluptatem ducimus ipsa veritatis blanditiis
+        dolore?</P>
+    <h2 class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit saepe, ea voluptates incidunt suscipit
+        blanditiis quae iure maxime et tempora quasi dolorum, fugiat consequatur cum facilis consectetur obcaecati vero
+        provident.</h2>
+        <h2 class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit saepe, ea voluptates incidunt suscipit
+            blanditiis quae iure maxime et tempora quasi dolorum, fugiat consequatur cum facilis consectetur obcaecati vero
+            provident.</h2>
+    <script src="jquery-3.7.1.min.js">
+
+    </script>
+    <script>
+        $("p").click(function () {
+            $(this).hide(500)
+        })
+        $('.red').click(function () {
+            $(this).css('background-color', 'red')
+        })
+        $('.blue').click(function () {
+            $(this).css({'background-color' : 'blue' , 'color' : 'white'})
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="inc">+</button>
+    <input type="text" value="1">
+    <button class="dec">-</button>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+     $('.inc').click(function(){
+       let inputtype= $('input').val()
+       inputtype++
+       $('input').val(inputtype)
+     })
+
+$('.dec').click(function(){
+    let inputtype = $('input').val()
+    if(inputtype>1)
+    inputtype--
+    $('input').val(inputtype)
+})
+$("input").change(function(){
+    let inputtype = $('input').val()
+    if(inputtype<1)
+    $("input").val(1)
+})
+    </script>
+</body>
+</html>
